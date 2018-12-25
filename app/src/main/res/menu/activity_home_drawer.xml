@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/profile"
+            android:title="Profile" />    </group>
+
+    <group android:checkableBehavior="single" >
+
+    <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/orders"
+            android:title="Orders" />  </group>
+
+    <group android:checkableBehavior="single" >
+
+
+    <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/listt"
+            android:title="List" /></group>
+    <group android:checkableBehavior="single" >
+
+    <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/notification"
+            android:title="Notfication" />  </group>
+
+    <group android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/message"
+            android:title="Contact US" />    </group>
+
+    <group android:checkableBehavior="single" >
+
+    <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/share"
+            android:title="Share with friend " />
+
+
+    </group>
+
+</menu>
